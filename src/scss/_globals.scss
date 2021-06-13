@@ -1,0 +1,28 @@
+* {
+    box-sizing : border-box;
+}
+
+body {
+    font-family: $mainFont;
+    color: $white;
+}
+
+h1 {
+    font-size: rem(24);
+
+}
+
+h2 {
+    font-size: rem(22);
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
