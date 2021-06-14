@@ -1,5 +1,5 @@
 .button {
-    display: block;
+    // display:block;
     padding: 1em 3em;
     border: solid thin $white;
     border-radius: 400px;
@@ -14,10 +14,13 @@
     &:hover {
         background-color: lighten($transparent, 60%);
     }
-    &--alert {
-        background-color: $red;  
+    &--blue {
+        
+        background-color: $blue;  
+        margin: 0 1rem;
+        padding: 0.5em 1.5em;
         &:hover {
-            background-color: lighten($red, 10%);
+            background-color: lighten($blue, 10%);
         }
     }
 

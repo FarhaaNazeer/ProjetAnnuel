@@ -1,0 +1,31 @@
+.card {
+    width: 20%;
+    text-align: center;
+    background-color: $white;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 45px 0;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+
+    &--medium {
+        width: 23rem;
+        height: 15rem;
+        margin: 0;
+    }
+
+    &--large {
+        width: 55rem;
+        margin: 23px 30px;
+    }
+}
+
+.card-indicators {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.click-card {
+    height: 11rem;
+}
