@@ -1,7 +1,6 @@
 .button {
     // display:block;
     padding: 1em 3em;
-    border: solid thin $white;
     border-radius: 400px;
     background-color: $transparent;
     letter-spacing: 2px;
@@ -12,30 +11,43 @@
     text-transform: uppercase;
     text-decoration: none;
     transition: all 0.3sec;
+    letter-spacing: 0.05rem;
+
+
     &:hover {
         background-color: lighten($transparent, 60%);
     }
+
     &--blue {
-        
-        background-color: $blue;  
+
+        background-color: $blue;
         margin: 0 1rem;
         padding: 0.5em 1.5em;
+
         &:hover {
             background-color: lighten($blue, 10%);
         }
     }
 
     &--success {
-        background-color: $green;  
+        background-color: $green;
 
-        &:hover{
+        &:hover {
             background-color: lighten($green, 10%);
         }
     }
 
-    &--dropdown {
-        border-radius: 5px;
-        padding: 0.8rem 2rem;
+    &--lightblue {
+        background-color: $light-blue;
+
+        &:hover {
+            background-color: lighten($light-blue, 10%);
+        }
+    }
+
+    &--xs {
+        padding: 0.3em 0.9em;
+        font-size: 0.7rem;
     }
 
 }
