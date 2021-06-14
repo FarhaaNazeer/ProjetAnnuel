@@ -4,6 +4,7 @@
     border: solid thin $white;
     border-radius: 400px;
     background-color: $transparent;
+    letter-spacing: 2px;
     color: $white;
     margin: 30px 0;
     cursor: pointer;
@@ -30,6 +31,11 @@
         &:hover{
             background-color: lighten($green, 10%);
         }
+    }
+
+    &--dropdown {
+        border-radius: 5px;
+        padding: 0.8rem 2rem;
     }
 
 }

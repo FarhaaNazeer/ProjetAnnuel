@@ -1,8 +1,9 @@
-.progress::-webkit-progress-value {
-    background: $blue; 
+// .progress::-webkit-progress-value {
+//     background: $blue; 
+//     width: 100%;
+// }
+
+progress {
     width: 100%;
 }
 
-// progress {
-//     width: 100%;
-// }
