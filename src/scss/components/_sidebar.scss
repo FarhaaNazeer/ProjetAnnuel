@@ -1,0 +1,47 @@
+.sidebar {
+    background-color: #064A89;
+    width: 20%;
+    height: 100%;
+}
+h2:first-child {
+    padding-top: 20px;
+}
+.sidebar-header {
+    background-color: #357BBB;
+    border-bottom: solid thin $white;
+    height: 7%;
+}
+
+.sidebar-header h2 {
+    margin: 0!important;
+    text-align: center;
+}
+
+.sidebar div {
+    margin: 25px 0px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 45px;
+    padding: 10px 0;
+    letter-spacing: 2px;
+}
+
+.sidebar li {
+    list-style: none;
+    margin-left: 44px;
+    padding: 14px 0;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+.sidebar .title-icon {
+    padding-right: 10px;
+}
+
+.sidebar .fa-chevron-down {
+    padding-left: 10px;
+}
