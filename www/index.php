@@ -2,8 +2,6 @@
 
 namespace App;
 
-echo 'hello';
-die;
 //création de mon Autoload
 //Il s'agit d'executer une fonction lorsqu'il y a tentative
 //d'instanciation sur une class que le code ne connait pas
