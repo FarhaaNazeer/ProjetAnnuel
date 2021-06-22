@@ -13,7 +13,7 @@ function myAutoloader($class) {
 	// App\Core\View -> App/Core/View
 	$class = str_replace("\\", "/", $class);
 	// App/Core/View -> Core/View
-	$class = str_ireplace("App/", "", $class);
+	$class = str_ireplace("App/", "src/", $class);
 	// Core/View -> Core/View.php
 	$class .= ".php";
 	if(file_exists($class)){

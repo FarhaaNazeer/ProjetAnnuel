@@ -19,21 +19,22 @@ class View {
     }
 
     public function __construct($view, $template) {
+        
         $this->setTemplate($template);
         $this->setView($view);
     }
-
+    
     public function setTemplate($template) {
-        if (file_exists("Views/Templates".$template.".php")) {
-            $this->template = "Views/Templates".$template."php";
+        if (file_exists("src/Views/Templates/".$template.".php")) {
+            $this->template = "src/Views/Templates/".$template.".php";
         } else {
             die();
         }
     }
 
     public function setView($view) {
-        if(file_exists("Views/".$view.".view.php")) {
-            $this->view = "Views/".$view.".view.php";
+        if(file_exists("src/Views/".$view.".view.php")) {
+            $view = $this->view = "src/Views/".$view.".view.php";
         } else {
             die();
         }
@@ -46,7 +47,7 @@ class View {
 
     public function __destruct(){
 
-		extract($this->data);
+        extract($this->data);
 		require $this->template;
 	}
 
