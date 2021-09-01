@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
+body {
+    font-family: "Inter";
+    color: #606F89;
+}
+
+.breadcrumb {
+    font-family: "Raleway";
+    color: black;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+/* .tabble_wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+} */
+
+.main_content {
+    margin: 0 auto;
+}
+
+.wrapper_header {
+    background-color: #F4F7FC;
+    padding: 2em 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#filter_icon {
+    margin: 0 2em;
+}
+
+#search {
+    background: url('images/Search.svg') no-repeat scroll 10px 10px;
+    background-color: #DAE1EC;
+    padding: 1em 1em 1em 40px;
+    border: none;
+    border-radius: 0.5em;
+}
+
+thead {
+    background-color: #F4F7FC;
+}
+
+.clickandcollect th, .clickandcollect td {
+    padding: 2rem 1rem;
+}
+
+.cell_subtitle {
+    color: #606F89;
+    font-size: 0.8rem;
+}
+
+.cell_name {
+    font-weight: 500;
+}
+
+.heure_livraison {
+    color: #008400;
+}
+
+th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: small;
+}
+
+tr:nth-of-type(even) {
+    background-color: #F4F7FC;
+}

@@ -1,0 +1,71 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-dashboard {
+    margin: 0 69px;
+    width: 90%; 
+}
+
+section h1 {
+    text-align: left;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: inherit;
+}
+.group-instructions {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 1.2rem;
+}
+.group-instructions li {
+    font-size: 1.2rem;
+}
+
+.widgets {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.group-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.widget {
+    background-color: $blue;
+    border-radius: 100px;
+    padding: 2rem 1rem;
+    width: 51%;
+}
+
+.widget h2 {
+    color: $white;
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.group-widget a {
+    color: $black;
+    margin-top: 2rem;
+}
+
+.group-widget a:hover {
+    text-decoration: underline ;
+}
+
+
+

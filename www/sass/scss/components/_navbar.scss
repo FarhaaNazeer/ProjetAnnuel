@@ -1,0 +1,14 @@
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    align-items: center;
+}
+
+.navbar-content h2 {
+    position: absolute;
+    left: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

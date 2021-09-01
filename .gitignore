@@ -1,0 +1,6 @@
+node_modules
+.env*
+db_data
+composer.json
+composer.lock
+vendor
