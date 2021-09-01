@@ -21,8 +21,6 @@
     &--blue {
 
         background-color: $blue;
-        margin: 0 1rem;
-        padding: 0.5em 1.5em;
 
         &:hover {
             background-color: lighten($blue, 10%);
@@ -48,6 +46,11 @@
     &--xs {
         padding: 0.3em 0.9em;
         font-size: 0.7rem;
+    }
+
+    &--medium {
+        margin: 0 1rem;
+        padding: 0.5em 1.5em;
     }
 
 }

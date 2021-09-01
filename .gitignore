@@ -1,3 +1,6 @@
 node_modules
-www/.env*
+.env*
 db_data
+composer.json
+composer.lock
+vendor
