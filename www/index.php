@@ -4,6 +4,7 @@ namespace App;
 
 require __DIR__ . '/vendor/autoload.php';
 
+
 //création de mon Autoload
 //Il s'agit d'executer une fonction lorsqu'il y a tentative
 //d'instanciation sur une class que le code ne connait pas

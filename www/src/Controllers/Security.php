@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Core\View;
+
 use Dotenv\Dotenv;
 
 class Security
@@ -20,3 +21,4 @@ class Security
         // $view = $view->renderHtml();
     }
 }
+
